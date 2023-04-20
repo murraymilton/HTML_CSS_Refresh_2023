@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Forum", serif;
+}
+
+.hero {
+  background-color: #f08e80;
+  min-height: 90vh;
+  display: inline-block;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 24px 32px;
+  box-sizing: border-box;
+}
+
+.navbar .links a:link {
+  color: white;
+  text-decoration: none;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+}
+
+.navbar p {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.navbar button a:link {
+  text-decoration: none;
+  color: #f08e80;
+}
+
+.navbar button {
+  background-color: white;
+  border: none;
+  padding: 16px 24px;
+}
+
+.navbar button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.hero-content {
+  padding: 0 15%;
+}
+
+.hero-content h1 {
+  color: white;
+  font-size: 4.5rem;
+  letter-spacing: 2px;
+  padding: 32px 0;
+}
+
+.two-col-section {
+  font-size: 2rem;
+}
+
+.two-col-section p {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+}
+
+.two-col-section .skills {
+  width: 50%;
+  float: left;
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+}
+
+.two-col-section .skills li {
+  width: 50%;
+  float: left;
+  font-size: 1.25rem;
+  margin: 8px 0;
+}
