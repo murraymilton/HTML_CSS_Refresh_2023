@@ -42,10 +42,11 @@ body {
   background-color: white;
   border: none;
   padding: 16px 24px;
+  border-radius: 30px;
 }
 
 .navbar button:hover {
-  opacity: 0.9;
+  opacity: 0.8;
   cursor: pointer;
 }
 
@@ -64,7 +65,7 @@ body {
   font-size: 2rem;
 }
 
-.two-col-section p {
+.two-col-section > p {
   width: 50%;
   float: left;
   box-sizing: border-box;
@@ -83,4 +84,92 @@ body {
   float: left;
   font-size: 1.25rem;
   margin: 8px 0;
+}
+
+.blog-section {
+  background-color: white;
+  padding: 64px 0;
+}
+
+.blog-content {
+  padding: 0 15%;
+}
+
+.two-col-section .blog-posts {
+  width: 50%;
+  float: left;
+}
+
+.blog-heading {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+
+.blog-text {
+  font-size: 1rem;
+}
+
+.blog-posts {
+  margin-top: 1.5rem;
+}
+
+.blog-posts .blog-date {
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 32px;
+}
+
+.blog-posts p {
+  margin: 0.5rem 0;
+}
+
+.events-section {
+  background-color: #fdf0e6;
+  padding: 64px 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.events-content {
+  padding: 0 15%;
+}
+
+.events-card {
+  width: 50%;
+  float: left;
+  margin-top: 24px;
+}
+
+.events-card p {
+  margin: 8px 0;
+}
+
+.event-title {
+  font-size: 1.5rem;
+}
+
+.event-location {
+  font-size: 1rem;
+}
+
+.events-card .event-date {
+  font-size: 0.9rem;
+  color: grey;
+  margin-bottom: 32px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 60px;
+}
+
+.footer-content {
+  text-align: center;
+}
+
+footer img {
+  width: 2rem;
+  height: 2rem;
+  margin: 0 8px;
 }
