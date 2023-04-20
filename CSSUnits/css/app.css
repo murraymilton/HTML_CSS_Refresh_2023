@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+}
+
+.container {
+  border: 1px solid black;
+  height: 600px;
+  width: 600px;
+}
+
+.box {
+  width: 50%;
+  height: 50%;
+  background-color: blueviolet;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+.container-two {
+  border: 1px solid black;
+  height: 600px;
+  width: 600px;
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.container-two h2 {
+  font-size: 3em;
+}
+
+.container h3 {
+  font-size: 2em;
+}
+
+.vh-li {
+  list-style: none;
+}
+
+.vhvw-container {
+  background-color: magenta;
+  width: 100vw;
+  height: 100vh;
+}
+
+.vhvw-container2 {
+  background-color: gold;
+  width: 50vw;
+  height: 100vh;
+}
