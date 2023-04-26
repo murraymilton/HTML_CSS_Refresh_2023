@@ -1,8 +1,9 @@
 .box {
-  border: 1px solid red;
+  border: 20px dashed red;
   height: 400px;
-  width: 200px;
+  width: 400px;
   background-image: url("images/woman.jpg");
-  background-size: cover;
-  background-position: top right;
+  /* background-size: cover;
+  background-position: top right; */
+  background-clip: padding-box;
 }
